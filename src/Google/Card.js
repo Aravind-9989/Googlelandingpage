@@ -45,10 +45,26 @@ function Cards() {
     backgroundColor: 'lightYellow',
     animation: 'moveRight 5s',
   };
-
+const keyframes = `
+@keyframes moveRight {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-400px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+`;
 
   return (
-  
+    <div>
+    <style>
+    {keyframes}
+  </style>
+
     <div className="total" style={{display:"flex",marginLeft:"150px",gap:"20px",marginTop:"85px"}}>
       <div className="left" style={left}>
         <p>UPDATES</p>
@@ -79,7 +95,7 @@ function Cards() {
         </div>
       </div>
     </div>
-   
+    </div>
   );
 }
 
