@@ -1,6 +1,7 @@
 import './App.css';
-import Cards from './Google/Cards';
+import Cards from './Google/Card';
 import Fast from './Google/Fast';
+import GoogleFooter from './Google/Footer';
 import Home from './Google/home';
 import ColorSchemesExample from './Google/Navbar';
 import RoundedNavBar from './Google/Roundednavbar';
@@ -15,7 +16,7 @@ function App() {
     <Update/>
     <Cards/>
     <Fast/>
-
+  <GoogleFooter/>
    </div>
   );
 }
