@@ -7,7 +7,7 @@ import Container from 'react-bootstrap/Container';
 const RoundedNavBar = () => {
   return (
     <div>
-  <Navbar expand="lg" style={{ backgroundColor: 'white', borderRadius: '25px', boxShadow: '0px 0px 10px rgba(0, 0, 0, 0.1)', padding: '10px 20px', width:"600px", marginLeft:"450px", marginTop:"50px"
+  <Navbar expand="lg" style={{ backgroundColor: 'white', borderRadius: '25px', boxShadow: '0px 0px 10px rgba(0, 0, 0, 0.1)', padding: '10px 20px', width:"600px", marginLeft:"450px", marginTop:"20px"
    }}>
       <Container>
         <Nav className="mx-auto">
